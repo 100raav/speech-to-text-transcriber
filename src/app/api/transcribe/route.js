@@ -8,7 +8,7 @@ import {
 import path from "path";
 import fs from "fs";
 
-const UPLOAD_DIR = path.resolve(process.env.ROOT_PATH ?? "", "public/uploads");
+const UPLOAD_DIR = path.resolve(process.env.ROOT_PATH ?? "", "public/");
 
 const geminiApiKey = process.env.GEMINI_API_KEY;
 
