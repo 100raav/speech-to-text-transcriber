@@ -26,7 +26,7 @@ export default function page() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (!selectedFile) {
-      alert("Please select an audio file first.");
+      alert("Please select an audio file first..");
       return;
     }
     const formData = new FormData()
